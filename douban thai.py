@@ -2,7 +2,7 @@ import requests
 import re
 from requests.exceptions import RequestException
 
-header = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}
+header = {'User-Agent':'#这个地方换成自己浏览器的ua.不懂的话Issues里提呀我教你啊哈哈哈哈'}
 
 def get_page(url):#请求并获取豆瓣250源码
     try:
